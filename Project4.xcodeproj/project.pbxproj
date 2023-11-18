@@ -13,6 +13,8 @@
 		CE7F70FA2ACB608A00821CAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7F70F82ACB608A00821CAE /* Main.storyboard */; };
 		CE7F70FC2ACB608C00821CAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7F70FB2ACB608C00821CAE /* Assets.xcassets */; };
 		CE7F70FF2ACB608C00821CAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7F70FD2ACB608C00821CAE /* LaunchScreen.storyboard */; };
+		CE7F71072ACB855A00821CAE /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F71062ACB855A00821CAE /* WebViewController.swift */; };
+		CEA580282ACEF5A200F4BD80 /* startWebsites.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEA580272ACEF5A100F4BD80 /* startWebsites.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CE7F70FB2ACB608C00821CAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE7F70FE2ACB608C00821CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE7F71002ACB608C00821CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7F71062ACB855A00821CAE /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		CEA580272ACEF5A100F4BD80 /* startWebsites.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = startWebsites.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				CE7F70F22ACB608A00821CAE /* AppDelegate.swift */,
 				CE7F70F42ACB608A00821CAE /* SceneDelegate.swift */,
+				CE7F71062ACB855A00821CAE /* WebViewController.swift */,
 				CE7F70F62ACB608A00821CAE /* ViewController.swift */,
 				CE7F70F82ACB608A00821CAE /* Main.storyboard */,
 				CE7F70FB2ACB608C00821CAE /* Assets.xcassets */,
 				CE7F70FD2ACB608C00821CAE /* LaunchScreen.storyboard */,
 				CE7F71002ACB608C00821CAE /* Info.plist */,
+				CEA580272ACEF5A100F4BD80 /* startWebsites.txt */,
 			);
 			path = Project4;
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 				CE7F70FF2ACB608C00821CAE /* LaunchScreen.storyboard in Resources */,
 				CE7F70FC2ACB608C00821CAE /* Assets.xcassets in Resources */,
 				CE7F70FA2ACB608A00821CAE /* Main.storyboard in Resources */,
+				CEA580282ACEF5A200F4BD80 /* startWebsites.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 				CE7F70F72ACB608A00821CAE /* ViewController.swift in Sources */,
 				CE7F70F32ACB608A00821CAE /* AppDelegate.swift in Sources */,
 				CE7F70F52ACB608A00821CAE /* SceneDelegate.swift in Sources */,
+				CE7F71072ACB855A00821CAE /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
